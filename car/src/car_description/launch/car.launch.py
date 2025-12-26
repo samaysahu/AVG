@@ -29,6 +29,7 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
         output='screen',
+        parameters=[{'use_sim_time': use_sim_time}],
         arguments=['-d', PathJoinSubstitution([pkg_share, 'config', 'car.rviz'])]
     )
 
@@ -103,7 +104,7 @@ def generate_launch_description():
 
     # Nav2 bringup
     nav2_bringup = TimerAction(
-        period=5.0,  # Wait for map_server and transforms to be ready
+        period=10.0,  # Wait for map_server and transforms to be ready
         actions=[
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(
