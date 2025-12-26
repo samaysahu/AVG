@@ -1,8 +1,8 @@
-# Install script for directory: /home/samay/car/src/car_description
+# Install script for directory: /home/samay/AVG/car/src/car_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/samay/car/install/car_description")
+  set(CMAKE_INSTALL_PREFIX "/home/samay/AVG/car/install/car_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,28 +44,28 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE DIRECTORY FILES
-    "/home/samay/car/src/car_description/urdf"
-    "/home/samay/car/src/car_description/launch"
-    "/home/samay/car/src/car_description/config"
-    "/home/samay/car/src/car_description/worlds"
-    "/home/samay/car/src/car_description/car_world"
-    "/home/samay/car/src/car_description/meshes"
+    "/home/samay/AVG/car/src/car_description/urdf"
+    "/home/samay/AVG/car/src/car_description/launch"
+    "/home/samay/AVG/car/src/car_description/config"
+    "/home/samay/AVG/car/src/car_description/worlds"
+    "/home/samay/AVG/car/src/car_description/car_world"
+    "/home/samay/AVG/car/src/car_description/meshes"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/car_description" TYPE PROGRAM FILES
-    "/home/samay/car/src/car_description/teleop/simple_car_teleop.py"
-    "/home/samay/car/src/car_description/teleop/car_teleop_node.py"
+    "/home/samay/AVG/car/src/car_description/teleop/simple_car_teleop.py"
+    "/home/samay/AVG/car/src/car_description/teleop/car_teleop_node.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/car_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/car_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/car_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/car_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description/environment" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description/environment" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -81,42 +81,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description/environment" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description/environment" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/samay/car/build/car_description/ament_cmake_index/share/ament_index/resource_index/packages/car_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/samay/AVG/car/build/car_description/ament_cmake_index/share/ament_index/resource_index/packages/car_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description/cmake" TYPE FILE FILES
-    "/home/samay/car/build/car_description/ament_cmake_core/car_descriptionConfig.cmake"
-    "/home/samay/car/build/car_description/ament_cmake_core/car_descriptionConfig-version.cmake"
+    "/home/samay/AVG/car/build/car_description/ament_cmake_core/car_descriptionConfig.cmake"
+    "/home/samay/AVG/car/build/car_description/ament_cmake_core/car_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/car/src/car_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_description" TYPE FILE FILES "/home/samay/AVG/car/src/car_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -127,5 +127,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/samay/car/build/car_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/samay/AVG/car/build/car_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

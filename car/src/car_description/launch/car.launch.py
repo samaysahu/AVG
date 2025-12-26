@@ -32,7 +32,8 @@ def generate_launch_description():
     slam_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             PathJoinSubstitution([pkg_share, 'launch', 'slam.launch.py'])
-        )
+        ),
+        launch_arguments={'use_sim_time': use_sim_time}.items()
     )
 
     return LaunchDescription([

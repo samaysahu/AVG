@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samay/car/src/car_description
+CMAKE_SOURCE_DIR = /home/samay/AVG/car/src/car_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samay/car/build/car_description
+CMAKE_BINARY_DIR = /home/samay/AVG/car/build/car_description
 
 # Utility rule file for car_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/car_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/car_description_uninstall.dir/progress.make
 
 CMakeFiles/car_description_uninstall:
-	/usr/bin/cmake -P /home/samay/car/build/car_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/samay/AVG/car/build/car_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 car_description_uninstall: CMakeFiles/car_description_uninstall
 car_description_uninstall: CMakeFiles/car_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/car_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/car_description_uninstall.dir/clean
 
 CMakeFiles/car_description_uninstall.dir/depend:
-	cd /home/samay/car/build/car_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samay/car/src/car_description /home/samay/car/src/car_description /home/samay/car/build/car_description /home/samay/car/build/car_description /home/samay/car/build/car_description/CMakeFiles/car_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samay/AVG/car/build/car_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samay/AVG/car/src/car_description /home/samay/AVG/car/src/car_description /home/samay/AVG/car/build/car_description /home/samay/AVG/car/build/car_description /home/samay/AVG/car/build/car_description/CMakeFiles/car_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/car_description_uninstall.dir/depend
 

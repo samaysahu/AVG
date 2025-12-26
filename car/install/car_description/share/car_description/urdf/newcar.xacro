@@ -147,8 +147,8 @@
   <!-- ================= GAZEBO DIFF DRIVE ================= -->
   <gazebo>
     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
-      <left_joint>rear_right_wheel_joint</left_joint>
-      <right_joint>rear_left_wheel_joint</right_joint>
+      <left_joint>rear_left_wheel_joint</left_joint>
+      <right_joint>rear_right_wheel_joint</right_joint>
       <wheel_separation>0.64</wheel_separation>
       <wheel_diameter>0.24</wheel_diameter>
       <max_wheel_torque>200</max_wheel_torque>
@@ -188,8 +188,11 @@
 
     <!-- ROS2 Gazebo plugin -->
     <plugin name="gazebo_ros_lidar" filename="libgazebo_ros_ray_sensor.so">
-      <topic_name>/scan</topic_name>
+      <ros>
+        <remapping>~/out:=/scan</remapping>
+      </ros>
       <frame_name>lidar_link</frame_name>
+      <output_type>sensor_msgs/LaserScan</output_type>
     </plugin>
   </sensor>
 </gazebo>
