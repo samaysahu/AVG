@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/samay/car/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samay/car/build/car_description -- -j12 -l12
+[0.046s] Invoked command in '/home/samay/car/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samay/car/build/car_description -- -j12 -l12
+[0.055s] Invoking command in '/home/samay/car/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samay/car/build/car_description
+[0.063s] -- Install configuration: ""
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/urdf
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/urdf/base.xacro
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/urdf/motor.xacro
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/urdf/robot.xacro
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/urdf/lidar.xacro
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/urdf/wheel.xacro
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/urdf/pillar.xacro
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/launch
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/launch/car.launch.py
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/launch/teleop.launch.py
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/launch/slam.launch.py
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/config
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/config/slam.yaml
+[0.063s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/config/car.rviz
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/worlds
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/worlds/my_car_world.world
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/car_world
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/car_world/model.sdf
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/car_world/model.config
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/lib/car_description/simple_car_teleop.py
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/lib/car_description/car_teleop_node.py
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/ament_index/resource_index/package_run_dependencies/car_description
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/ament_index/resource_index/parent_prefix_path/car_description
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/environment/path.sh
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/environment/path.dsv
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/local_setup.bash
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/local_setup.sh
+[0.064s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/local_setup.zsh
+[0.065s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/local_setup.dsv
+[0.065s] -- Installing: /home/samay/car/install/car_description/share/car_description/package.dsv
+[0.065s] -- Up-to-date: /home/samay/car/install/car_description/share/ament_index/resource_index/packages/car_description
+[0.065s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/cmake/car_descriptionConfig.cmake
+[0.065s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/cmake/car_descriptionConfig-version.cmake
+[0.065s] -- Up-to-date: /home/samay/car/install/car_description/share/car_description/package.xml
+[0.066s] Invoked command in '/home/samay/car/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samay/car/build/car_description
