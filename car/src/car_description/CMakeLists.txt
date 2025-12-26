@@ -19,13 +19,15 @@ find_package(urdf REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 install(
-  DIRECTORY urdf launch config worlds car_world meshes
+  DIRECTORY urdf launch config worlds car_world meshes map
   DESTINATION share/${PROJECT_NAME}
 )
 
 install(
   PROGRAMS teleop/simple_car_teleop.py
   PROGRAMS teleop/car_teleop_node.py
+  PROGRAMS teleop/map_republisher.py
+  PROGRAMS teleop/cmd_vel_merger.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

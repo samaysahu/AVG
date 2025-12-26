@@ -9,7 +9,7 @@ class CarTeleopNode(Node):
     def __init__(self):
         super().__init__('car_teleop_node')
 
-        self.publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
+        self.publisher_ = self.create_publisher(Twist, 'cmd_vel_teleop', 10)
         self.subscription = self.create_subscription(
             Joy,
             'joy',

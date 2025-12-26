@@ -50,6 +50,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/samay/AVG/car/src/car_description/worlds"
     "/home/samay/AVG/car/src/car_description/car_world"
     "/home/samay/AVG/car/src/car_description/meshes"
+    "/home/samay/AVG/car/src/car_description/map"
     )
 endif()
 
@@ -57,6 +58,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/car_description" TYPE PROGRAM FILES
     "/home/samay/AVG/car/src/car_description/teleop/simple_car_teleop.py"
     "/home/samay/AVG/car/src/car_description/teleop/car_teleop_node.py"
+    "/home/samay/AVG/car/src/car_description/teleop/map_republisher.py"
+    "/home/samay/AVG/car/src/car_description/teleop/cmd_vel_merger.py"
     )
 endif()
 

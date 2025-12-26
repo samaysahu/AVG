@@ -48,7 +48,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 32,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -240,7 +240,8 @@
 				"config",
 				"worlds",
 				"car_world",
-				"meshes"
+				"meshes",
+				"map"
 			],
 			"type" : "directory"
 		},
@@ -251,7 +252,9 @@
 			"paths" : 
 			[
 				"teleop/simple_car_teleop.py",
-				"teleop/car_teleop_node.py"
+				"teleop/car_teleop_node.py",
+				"teleop/map_republisher.py",
+				"teleop/cmd_vel_merger.py"
 			],
 			"type" : "file"
 		},

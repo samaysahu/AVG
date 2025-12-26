@@ -1,8 +1,10 @@
 /home/samay/AVG/car/install/car_description/share/car_description/urdf/newcar.xacro
 /home/samay/AVG/car/install/car_description/share/car_description/launch/car.launch.py
 /home/samay/AVG/car/install/car_description/share/car_description/launch/teleop.launch.py
+/home/samay/AVG/car/install/car_description/share/car_description/launch/nav2_bringup.launch.py
 /home/samay/AVG/car/install/car_description/share/car_description/launch/slam.launch.py
 /home/samay/AVG/car/install/car_description/share/car_description/config/slam.yaml
+/home/samay/AVG/car/install/car_description/share/car_description/config/nav2_params.yaml
 /home/samay/AVG/car/install/car_description/share/car_description/config/car.rviz
 /home/samay/AVG/car/install/car_description/share/car_description/worlds/my_car_world.world
 /home/samay/AVG/car/install/car_description/share/car_description/car_world/model.sdf
@@ -15,8 +17,12 @@
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/WH05/G1.STL
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/WH05/G.stl
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/WH05/fr_wheel.dae
+/home/samay/AVG/car/install/car_description/share/car_description/map/my_map.pgm
+/home/samay/AVG/car/install/car_description/share/car_description/map/my_map.yaml
 /home/samay/AVG/car/install/car_description/lib/car_description/simple_car_teleop.py
 /home/samay/AVG/car/install/car_description/lib/car_description/car_teleop_node.py
+/home/samay/AVG/car/install/car_description/lib/car_description/map_republisher.py
+/home/samay/AVG/car/install/car_description/lib/car_description/cmd_vel_merger.py
 /home/samay/AVG/car/install/car_description/share/ament_index/resource_index/package_run_dependencies/car_description
 /home/samay/AVG/car/install/car_description/share/ament_index/resource_index/parent_prefix_path/car_description
 /home/samay/AVG/car/install/car_description/share/car_description/environment/ament_prefix_path.sh
