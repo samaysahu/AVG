@@ -15,9 +15,9 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     use_slam = LaunchConfiguration('use_slam', default='false')  # Disable SLAM when using static map
     xacro_file_name = 'newcar.xacro'
-    world_file_name = 'my_car_world.world'
+    world_file_name = 'main'
 
-    world_path = PathJoinSubstitution([pkg_share, 'worlds', world_file_name])
+    world_path = PathJoinSubstitution([pkg_share, 'car_world', world_file_name])
     urdf_file_path = PathJoinSubstitution([pkg_share, 'urdf', xacro_file_name])
     map_file_path = PathJoinSubstitution([pkg_share, 'map', 'my_map.yaml'])
     

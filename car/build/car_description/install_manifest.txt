@@ -7,8 +7,8 @@
 /home/samay/AVG/car/install/car_description/share/car_description/config/nav2_params.yaml
 /home/samay/AVG/car/install/car_description/share/car_description/config/car.rviz
 /home/samay/AVG/car/install/car_description/share/car_description/worlds/my_car_world.world
-/home/samay/AVG/car/install/car_description/share/car_description/car_world/model.sdf
-/home/samay/AVG/car/install/car_description/share/car_description/car_world/model.config
+/home/samay/AVG/car/install/car_description/share/car_description/car_world/main
+/home/samay/AVG/car/install/car_description/share/car_description/car_world/new
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/panther/base_collision.stl
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/panther/base.dae
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/WH05/rr_wheel.dae
