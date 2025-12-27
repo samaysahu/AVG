@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:58 (file):
+  file INSTALL cannot find
+  "/home/samay/AVG/car/src/car_description/script/follow_waypoints.py": No
+  such file or directory.
+
+

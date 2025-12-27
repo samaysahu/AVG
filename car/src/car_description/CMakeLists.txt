@@ -28,6 +28,7 @@ install(
   PROGRAMS teleop/car_teleop_node.py
   PROGRAMS teleop/map_republisher.py
   PROGRAMS teleop/cmd_vel_merger.py
+  PROGRAMS script/follow_waypoints.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

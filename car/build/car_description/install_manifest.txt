@@ -23,6 +23,7 @@
 /home/samay/AVG/car/install/car_description/lib/car_description/car_teleop_node.py
 /home/samay/AVG/car/install/car_description/lib/car_description/map_republisher.py
 /home/samay/AVG/car/install/car_description/lib/car_description/cmd_vel_merger.py
+/home/samay/AVG/car/install/car_description/lib/car_description/follow_waypoints.py
 /home/samay/AVG/car/install/car_description/share/ament_index/resource_index/package_run_dependencies/car_description
 /home/samay/AVG/car/install/car_description/share/ament_index/resource_index/parent_prefix_path/car_description
 /home/samay/AVG/car/install/car_description/share/car_description/environment/ament_prefix_path.sh

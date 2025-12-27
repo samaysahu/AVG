@@ -48,7 +48,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -254,7 +254,8 @@
 				"teleop/simple_car_teleop.py",
 				"teleop/car_teleop_node.py",
 				"teleop/map_republisher.py",
-				"teleop/cmd_vel_merger.py"
+				"teleop/cmd_vel_merger.py",
+				"script/follow_waypoints.py"
 			],
 			"type" : "file"
 		},
