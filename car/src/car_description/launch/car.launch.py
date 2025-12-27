@@ -174,12 +174,12 @@ def generate_launch_description():
             parameters=[{'use_sim_time': use_sim_time}],
         ),
 
-        Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            arguments=['-topic', 'robot_description', '-entity', 'my_robot'],
-            output='screen'
-        ),
+        # Node(
+        #     package='gazebo_ros',
+        #     executable='spawn_entity.py',
+        #     arguments=['-topic', 'robot_description', '-entity', 'my_robot', '-x', '5.0', '-y', '5.0', '-z', '0.0', '-qx', '0.0', '-qy', '0.0', '-qz', '0.549556', '-qw', '0.835457'],
+        #     output='screen'
+        # ),
 
         slam_launch,
         map_server_node,

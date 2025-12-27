@@ -3009,7 +3009,7 @@
     <model name='my_robot'>
       <link name='base_link'>
         <inertial>
-          <pose>0.003871 0 0.103226 0 -0 0</pose>
+         <pose>0.003871 0 0.103226 0 -0 0</pose>
           <mass>15.5</mass>
           <inertia>
             <ixx>0.505839</ixx>
@@ -3339,7 +3339,7 @@
         <publish_odom>1</publish_odom>
         <publish_odom_tf>1</publish_odom_tf>
       </plugin>
-      <pose>0 0 0 0 -0 0</pose>
+      <pose>6.21274 6.29283 0 0 0 1.00241</pose>
     </model>
     <model name='number1'>
       <pose>-7.4523 -7.35495 0.4 0 -0 0</pose>
@@ -3584,34 +3584,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='my_robot'>
-        <pose>0.855825 -0.030888 0.109996 0 1.6e-05 -0.074908</pose>
-        <scale>1 1 1</scale>
-        <link name='base_link'>
-          <pose>0.855825 -0.030888 0.109996 0 1.6e-05 -0.074908</pose>
-          <velocity>0.001437 -0.00012 -0.001306 0.001055 0.013854 -0.000218</velocity>
-          <acceleration>1.14565 -0.119137 -2.68631 -2.29314 0.680717 3.10014</acceleration>
-          <wrench>17.7576 -1.84662 -41.6378 0 -0 0</wrench>
-        </link>
-        <link name='front_caster_wheel_link'>
-          <pose>0.955542 -0.038372 0.059997 7e-06 0.000153 -0.077701</pose>
-          <velocity>0.001314 -0.000162 -0.003268 -0.00338 -0.02018 -0.000226</velocity>
-          <acceleration>-2.08017 0.052968 -6.48669 -0.533108 -0.382602 0.003884</acceleration>
-          <wrench>-1.04008 0.026484 -3.24335 0 -0 0</wrench>
-        </link>
-        <link name='rear_left_wheel_link'>
-          <pose>0.650419 0.305427 0.12 -2e-06 -0.03657 -0.074907</pose>
-          <velocity>0.001649 -7.1e-05 0.001933 0.000591 0.013751 -0.00015</velocity>
-          <acceleration>-1.41626 0.112021 3.86423 -1.93672 0.786636 -3.02491</acceleration>
-          <wrench>-2.83252 0.224041 7.72846 0 -0 0</wrench>
-        </link>
-        <link name='rear_right_wheel_link'>
-          <pose>0.602523 -0.332778 0.12 -3e-06 -0.197612 -0.074907</pose>
-          <velocity>0.001542 -5.8e-05 0.001887 0.000481 0.012861 -0.000129</velocity>
-          <acceleration>-1.36373 0.118126 3.77381 1.05337 1.45023 0.159641</acceleration>
-          <wrench>-2.72747 0.236252 7.54762 0 -0 0</wrench>
-        </link>
-      </model>
+      
       <model name='number1'>
         <pose>-7.4523 -7.35495 0.4 0 -0 0</pose>
         <scale>1 1 1</scale>

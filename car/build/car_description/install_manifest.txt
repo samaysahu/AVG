@@ -6,9 +6,7 @@
 /home/samay/AVG/car/install/car_description/share/car_description/config/slam.yaml
 /home/samay/AVG/car/install/car_description/share/car_description/config/nav2_params.yaml
 /home/samay/AVG/car/install/car_description/share/car_description/config/car.rviz
-/home/samay/AVG/car/install/car_description/share/car_description/worlds/my_car_world.world
 /home/samay/AVG/car/install/car_description/share/car_description/car_world/main
-/home/samay/AVG/car/install/car_description/share/car_description/car_world/new
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/panther/base_collision.stl
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/panther/base.dae
 /home/samay/AVG/car/install/car_description/share/car_description/meshes/WH05/rr_wheel.dae
@@ -24,6 +22,7 @@
 /home/samay/AVG/car/install/car_description/lib/car_description/map_republisher.py
 /home/samay/AVG/car/install/car_description/lib/car_description/cmd_vel_merger.py
 /home/samay/AVG/car/install/car_description/lib/car_description/follow_waypoints.py
+/home/samay/AVG/car/install/car_description/lib/car_description/room_waypoint.py
 /home/samay/AVG/car/install/car_description/share/ament_index/resource_index/package_run_dependencies/car_description
 /home/samay/AVG/car/install/car_description/share/ament_index/resource_index/parent_prefix_path/car_description
 /home/samay/AVG/car/install/car_description/share/car_description/environment/ament_prefix_path.sh
