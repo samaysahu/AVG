@@ -1,1 +1,13 @@
 car/src/.vscode/browse.vc.db
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# ROS build files
+build/
+install/
+log/
+
+# Database files
+*.db
