@@ -1,0 +1,28 @@
+running egg_info
+creating ../../build/car_rqt_gui/car_rqt_gui.egg-info
+writing ../../build/car_rqt_gui/car_rqt_gui.egg-info/PKG-INFO
+writing dependency_links to ../../build/car_rqt_gui/car_rqt_gui.egg-info/dependency_links.txt
+writing entry points to ../../build/car_rqt_gui/car_rqt_gui.egg-info/entry_points.txt
+writing requirements to ../../build/car_rqt_gui/car_rqt_gui.egg-info/requires.txt
+writing top-level names to ../../build/car_rqt_gui/car_rqt_gui.egg-info/top_level.txt
+writing manifest file '../../build/car_rqt_gui/car_rqt_gui.egg-info/SOURCES.txt'
+reading manifest file '../../build/car_rqt_gui/car_rqt_gui.egg-info/SOURCES.txt'
+writing manifest file '../../build/car_rqt_gui/car_rqt_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/samay/AVG/car/build/car_rqt_gui/build
+creating /home/samay/AVG/car/build/car_rqt_gui/build/lib
+creating /home/samay/AVG/car/build/car_rqt_gui/build/lib/car_rqt_gui
+copying car_rqt_gui/__init__.py -> /home/samay/AVG/car/build/car_rqt_gui/build/lib/car_rqt_gui
+copying car_rqt_gui/car_rqt_gui_plugin.py -> /home/samay/AVG/car/build/car_rqt_gui/build/lib/car_rqt_gui
+running install
+running install_lib
+creating /home/samay/AVG/car/install/car_rqt_gui/lib/python3.10/site-packages/car_rqt_gui
+copying /home/samay/AVG/car/build/car_rqt_gui/build/lib/car_rqt_gui/__init__.py -> /home/samay/AVG/car/install/car_rqt_gui/lib/python3.10/site-packages/car_rqt_gui
+copying /home/samay/AVG/car/build/car_rqt_gui/build/lib/car_rqt_gui/car_rqt_gui_plugin.py -> /home/samay/AVG/car/install/car_rqt_gui/lib/python3.10/site-packages/car_rqt_gui
+byte-compiling /home/samay/AVG/car/install/car_rqt_gui/lib/python3.10/site-packages/car_rqt_gui/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/samay/AVG/car/install/car_rqt_gui/lib/python3.10/site-packages/car_rqt_gui/car_rqt_gui_plugin.py to car_rqt_gui_plugin.cpython-310.pyc
+running install_data
+creating /home/samay/AVG/car/install/car_rqt_gui/share/ament_index
+creating /home/samay/AVG/car/install/car_rqt_gui/share/ament_index/resource_index
+creating /home/samay/AVG/car/install/car_rqt_gui/share/ament_index/resource_index/packages

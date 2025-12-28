@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[rqt_gui_py_plugins]
+car_control = car_rqt_gui.car_rqt_gui_plugin:CarRqtGuiPlugin
+
