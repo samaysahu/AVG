@@ -1,6 +1,0 @@
-Invoking command in '/home/samay/AVG/car/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/samay/AVG/car/src/car_description -DCMAKE_INSTALL_PREFIX=/home/samay/AVG/car/install/car_description
-Invoked command in '/home/samay/AVG/car/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/samay/AVG/car/src/car_description -DCMAKE_INSTALL_PREFIX=/home/samay/AVG/car/install/car_description
-Invoking command in '/home/samay/AVG/car/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samay/AVG/car/build/car_description -- -j12 -l12
-Invoked command in '/home/samay/AVG/car/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samay/AVG/car/build/car_description -- -j12 -l12
-Invoking command in '/home/samay/AVG/car/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samay/AVG/car/build/car_description
-Invoked command in '/home/samay/AVG/car/build/car_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samay/AVG/car/build/car_description
