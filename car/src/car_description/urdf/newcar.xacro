@@ -26,6 +26,224 @@
     </inertial>
   </link>
 
+  <!-- ================= PILLAR 1 (Front Left) ================= -->
+  <link name="pillar_front_left_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+      <material name="pillar_color">
+        <color rgba="0.2 0.2 0.2 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="2.5"/>
+      <inertia ixx="0.325" ixy="0" ixz="0"
+               iyy="0.325" iyz="0"
+               izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <!-- ================= PILLAR 2 (Front Right) ================= -->
+  <link name="pillar_front_right_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+      <material name="pillar_color">
+        <color rgba="0.2 0.2 0.2 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="2.5"/>
+      <inertia ixx="0.325" ixy="0" ixz="0"
+               iyy="0.325" iyz="0"
+               izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <!-- ================= PILLAR 3 (Rear Left) ================= -->
+  <link name="pillar_rear_left_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+      <material name="pillar_color">
+        <color rgba="0.2 0.2 0.2 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="2.5"/>
+      <inertia ixx="0.325" ixy="0" ixz="0"
+               iyy="0.325" iyz="0"
+               izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <!-- ================= PILLAR 4 (Rear Right) ================= -->
+  <link name="pillar_rear_right_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+      <material name="pillar_color">
+        <color rgba="0.2 0.2 0.2 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.02" length="1.25"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="2.5"/>
+      <inertia ixx="0.325" ixy="0" ixz="0"
+               iyy="0.325" iyz="0"
+               izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <!-- ================= CARGO PLATFORM ================= -->
+  <link name="cargo_platform_link">
+    <visual>
+      <geometry>
+        <box size="0.40 0.50 0.02"/>
+      </geometry>
+      <material name="platform_color">
+        <color rgba="0.6 0.4 0.2 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.40 0.50 0.02"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.5"/>
+      <inertia ixx="0.032" ixy="0" ixz="0"
+               iyy="0.021" iyz="0"
+               izz="0.051"/>
+    </inertial>
+  </link>
+
+  <!-- ================= CARGO BOUNDARY WALLS ================= -->
+  <!-- Front boundary -->
+  <link name="cargo_boundary_front">
+    <visual>
+      <geometry>
+        <box size="0.02 0.50 0.08"/>
+      </geometry>
+      <material name="boundary_color">
+        <color rgba="0.4 0.3 0.1 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.50 0.08"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.2"/>
+      <inertia ixx="0.0007" ixy="0" ixz="0"
+               iyy="0.0001" iyz="0"
+               izz="0.0007"/>
+    </inertial>
+  </link>
+
+  <!-- Rear boundary -->
+  <link name="cargo_boundary_rear">
+    <visual>
+      <geometry>
+        <box size="0.02 0.50 0.08"/>
+      </geometry>
+      <material name="boundary_color">
+        <color rgba="0.4 0.3 0.1 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.50 0.08"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.2"/>
+      <inertia ixx="0.0007" ixy="0" ixz="0"
+               iyy="0.0001" iyz="0"
+               izz="0.0007"/>
+    </inertial>
+  </link>
+
+  <!-- Left boundary -->
+  <link name="cargo_boundary_left">
+    <visual>
+      <geometry>
+        <box size="0.40 0.02 0.08"/>
+      </geometry>
+      <material name="boundary_color">
+        <color rgba="0.4 0.3 0.1 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.40 0.02 0.08"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.2"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0"
+               iyy="0.0007" iyz="0"
+               izz="0.0007"/>
+    </inertial>
+  </link>
+
+  <!-- Right boundary -->
+  <link name="cargo_boundary_right">
+    <visual>
+      <geometry>
+        <box size="0.40 0.02 0.08"/>
+      </geometry>
+      <material name="boundary_color">
+        <color rgba="0.4 0.3 0.1 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.40 0.02 0.08"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.2"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0"
+               iyy="0.0007" iyz="0"
+               izz="0.0007"/>
+    </inertial>
+  </link>
+
   <!-- ================= REAR LEFT WHEEL ================= -->
   <link name="rear_left_wheel_link">
     <visual>
@@ -114,6 +332,63 @@
 
   <!-- ================= JOINTS ================= -->
 
+  <!-- Pillar joints - fixed to base at four corners -->
+  <joint name="pillar_front_left_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="pillar_front_left_link"/>
+    <origin xyz="0.15 0.20 0.8" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="pillar_front_right_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="pillar_front_right_link"/>
+    <origin xyz="0.15 -0.20 0.8" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="pillar_rear_left_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="pillar_rear_left_link"/>
+    <origin xyz="-0.15 0.20 0.8" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="pillar_rear_right_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="pillar_rear_right_link"/>
+    <origin xyz="-0.15 -0.20 0.8" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Cargo platform joint - sits on top of pillars -->
+  <joint name="cargo_platform_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="cargo_platform_link"/>
+    <origin xyz="0 0 1.4" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Cargo boundary joints -->
+  <joint name="cargo_boundary_front_joint" type="fixed">
+    <parent link="cargo_platform_link"/>
+    <child link="cargo_boundary_front"/>
+    <origin xyz="0.21 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="cargo_boundary_rear_joint" type="fixed">
+    <parent link="cargo_platform_link"/>
+    <child link="cargo_boundary_rear"/>
+    <origin xyz="-0.21 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="cargo_boundary_left_joint" type="fixed">
+    <parent link="cargo_platform_link"/>
+    <child link="cargo_boundary_left"/>
+    <origin xyz="0 0.26 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="cargo_boundary_right_joint" type="fixed">
+    <parent link="cargo_platform_link"/>
+    <child link="cargo_boundary_right"/>
+    <origin xyz="0 -0.26 0.05" rpy="0 0 0"/>
+  </joint>
+
   <joint name="rear_left_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="rear_left_wheel_link"/>
@@ -160,43 +435,42 @@
   </gazebo>
 
   <!-- ================= LIDAR GAZEBO SENSOR ================= -->
-<gazebo reference="lidar_link">
-  <sensor type="ray" name="lidar_sensor">
-    <pose>0 0 0 0 0 0</pose>
-    <visualize>true</visualize>
-    <update_rate>10</update_rate>
-    <ray>
-      <scan>
-        <horizontal>
-          <samples>360</samples>
-          <resolution>1</resolution>
-          <min_angle>-3.14159</min_angle>
-          <max_angle>3.14159</max_angle>
-        </horizontal>
-      </scan>
-      <range>
-        <min>0.1</min>
-        <max>12.0</max>
-        <resolution>0.01</resolution>
-      </range>
-      <noise>
-        <type>gaussian</type>
-        <mean>0.0</mean>
-        <stddev>0.01</stddev>
-      </noise>
-    </ray>
+  <gazebo reference="lidar_link">
+    <sensor type="ray" name="lidar_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.1</min>
+          <max>12.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
 
-    <!-- ROS2 Gazebo plugin -->
-    <plugin name="gazebo_ros_lidar" filename="libgazebo_ros_ray_sensor.so">
-      <ros>
-        <remapping>~/out:=/scan</remapping>
-      </ros>
-      <frame_name>lidar_link</frame_name>
-      <output_type>sensor_msgs/LaserScan</output_type>
-    </plugin>
-  </sensor>
-</gazebo>
-
+      <!-- ROS2 Gazebo plugin -->
+      <plugin name="gazebo_ros_lidar" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=/scan</remapping>
+        </ros>
+        <frame_name>lidar_link</frame_name>
+        <output_type>sensor_msgs/LaserScan</output_type>
+      </plugin>
+    </sensor>
+  </gazebo>
 
   <!-- ================= FRICTION TUNING ================= -->
   <gazebo reference="rear_left_wheel_link">
@@ -212,6 +486,47 @@
   <gazebo reference="front_caster_wheel_link">
     <mu1>0.05</mu1>
     <mu2>0.05</mu2>
+  </gazebo>
+
+  <!-- Pillar materials in Gazebo -->
+  <gazebo reference="pillar_front_left_link">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+
+  <gazebo reference="pillar_front_right_link">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+
+  <gazebo reference="pillar_rear_left_link">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+
+  <gazebo reference="pillar_rear_right_link">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+
+  <!-- Cargo platform friction and material -->
+  <gazebo reference="cargo_platform_link">
+    <mu1>0.8</mu1>
+    <mu2>0.8</mu2>
+    <material>Gazebo/Brown</material>
+  </gazebo>
+
+  <!-- Cargo boundary materials -->
+  <gazebo reference="cargo_boundary_front">
+    <material>Gazebo/Brown</material>
+  </gazebo>
+
+  <gazebo reference="cargo_boundary_rear">
+    <material>Gazebo/Brown</material>
+  </gazebo>
+
+  <gazebo reference="cargo_boundary_left">
+    <material>Gazebo/Brown</material>
+  </gazebo>
+
+  <gazebo reference="cargo_boundary_right">
+    <material>Gazebo/Brown</material>
   </gazebo>
 
 </robot>

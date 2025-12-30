@@ -1,1 +1,7 @@
-/home/samay/AVG/car/src/car_description/map/my_map.yaml
+image: my_map.pgm
+mode: trinary
+resolution: 0.05
+origin: [-8.59, -9.39, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
