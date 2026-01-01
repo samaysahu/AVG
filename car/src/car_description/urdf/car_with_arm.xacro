@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="car_with_arm">
+
+  <!-- Include the car model -->
+  <xacro:include filename="$(find car_description)/urdf/newcar.xacro" />
+
+  <!-- Include the robotic arm macro -->
+  <xacro:include filename="$(find car_description)/urdf/robotiarm.xacro" />
+
+  <!-- Add the robotic arm to the cargo platform -->
+  <xacro:robotic_arm parent_link="cargo_platform_link" arm_prefix="arm" />
+
+</robot>
+
